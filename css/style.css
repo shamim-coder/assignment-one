@@ -43,6 +43,11 @@ header {
   color: #3c3c3c;
   font-weight: 500;
   font-size: 16px;
+  padding: 20px 0;
+}
+#menu ul li a:hover {
+    color: #F46060;
+    text-decoration: underline;
 }
 .top_section {
   overflow: hidden;
@@ -77,6 +82,9 @@ header {
   display: inline-block;
   text-align: center;
   padding: 18px 53px;
+}
+.price_item a:hover, .hello_txt a:hover, .about_txt a:hover, #submit:hover, .inq_btn a:hover {
+    background: linear-gradient(0deg, #fc6d4d -28.33%, #fd5b5b 95.83%);
 }
 .about_section {
   overflow: hidden;
@@ -127,10 +135,13 @@ header {
 }
 .work_item {
   width: 27%;
-  margin-right: 3%;
+  margin-right: 5%;
   box-shadow: gainsboro 2px 4px 19px;
   border-radius: 10px;
   padding: 15px;
+}
+.work_item:last-child {
+    margin-right: 0;
 }
 .work_section h2 {
   margin-bottom: 90px;
@@ -169,10 +180,13 @@ header {
 }
 .price_item {
   width: 22%;
-  margin-left: 2%;
+  margin-right: 3%;
   text-align: center;
   box-shadow: 1px 3px 6px gainsboro;
   border-radius: 5px;
+}
+.price_item:last-child {
+    margin-left: 0;
 }
 .price_item h4 {
   margin: 0;
@@ -341,8 +355,8 @@ input[type="submit"] {
     font-weight: bold;
 }
 .social_icon {
-    margin-top: 16px;
+    margin-top: 20px;
 }
 .social_icon a {
-    margin: 0 12px;
+    margin: 0 15px;
 }
